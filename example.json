@@ -1,0 +1,80 @@
+{
+  "options": {
+    "autoplay": true,
+    "playButton": {
+      "isVisible": true,
+      "hasIcon": true
+    }
+  },
+  "labels": {
+    "transcriptionLabel": "Transcription de la video"
+  },
+  "medias": [
+    {
+      "id": 94,
+      "title": "Example video 1",
+      "description": "<p>Je suis la description<\/p>",
+      "media_sources": [
+        {
+          "src": "https:\/\/storage.coverr.co\/videos\/73oxOBbuHf00uR66McqnGEG01JLMIzQnHs?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6Ijg3NjdFMzIzRjlGQzEzN0E4QTAyIiwiaWF0IjoxNjExNzU1MzI2fQ.Jvo_3g_RFyceKTVanDvZlyNBYlXB-X-tiNrPaYZE54A"
+        }
+      ],
+      "date": "12 janvier 2021",
+      "duration": "7:32",
+      "transcription_url": "#",
+      "image": {
+        "src": "https:\/\/picsum.photos\/1000\/650?random=1",
+        "alt": ""
+      }
+    },
+    {
+      "id": 85,
+      "title": "Example video 2",
+      "description": "<p>Super vue<\/p>",
+      "media_sources": [
+        {
+          "src": "https:\/\/storage.coverr.co\/videos\/GpUA6Ga189zyJRdN2HP7yURqV9gXFS3r?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6Ijg3NjdFMzIzRjlGQzEzN0E4QTAyIiwiaWF0IjoxNjA5MjQ4OTAxfQ.2ogYT2SbpEnMMa4TCcbq5WnY5293x84osPjfoPJNT4k"
+        }
+      ],
+      "date": " 8 d\u00e9cembre 2014",
+      "duration": "1:07",
+      "transcription_url": "#",
+      "image": {
+        "src": "https:\/\/picsum.photos\/1000\/650?random=2",
+        "alt": ""
+      }
+    },
+    {
+      "id": 83,
+      "title": "Example video 3",
+      "description": "<p>Je suis une super description<\/p>",
+      "media_sources": [
+        {
+          "src": "https:\/\/storage.coverr.co\/videos\/jtzK9mg3WbXWHEH026zUD7zuvFvSu1OPb?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6Ijg3NjdFMzIzRjlGQzEzN0E4QTAyIiwiaWF0IjoxNjA5MjQ3MDA0fQ.DYSbH2GkIhr3ZdaGuzsB9MzqjheiOER-vYNUV3c5lC0"
+        }
+      ],
+      "date": " 8 d\u00e9cembre 2020",
+      "duration": "1:38",
+      "image": {
+        "src": "https:\/\/picsum.photos\/1000\/650?random=3",
+        "alt": ""
+      }
+    },
+    {
+      "id": 95,
+      "title": "Example video 4",
+      "description": "<p><\/p>",
+      "media_sources": [
+        {
+          "src": "https:\/\/storage.coverr.co\/videos\/eHciZiOd8Z72PsLuT00y6l302AVAAuaAyl?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6Ijg3NjdFMzIzRjlGQzEzN0E4QTAyIiwiaWF0IjoxNjExNzU0NTg3fQ.fyLZ7aDtNLPt9GaZLpkJvxqgAPj1nxs2tyaCH-AoI3c"
+        }
+      ],
+      "date": " 4 janvier 2021",
+      "duration": "12:25",
+      "image": {
+        "src": "https:\/\/picsum.photos\/1000\/650?random=4",
+        "alt": ""
+      }
+    }
+  ]
+}
