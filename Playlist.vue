@@ -1,7 +1,7 @@
 <template>
   <ul class="KaliopPlayer-playlist">
     <li class="KaliopPlayer-playlistItem" :class="{ 'is-active' : currentMediaIndex == index }" v-for="(media, index) in medias" :key="media.id">
-      <button class="KaliopPlayer-playlistButton" @click="updateMedia(index)" :disabled="currentMediaIndex == index ? true : false">
+      <button class="KaliopPlayer-playlistButton" @click="updateMedia(index)" :aria-current="currentMediaIndex == index ? true : false" :disabled="currentMediaIndex == index ? true : false">
         <header class="KaliopPlayer-playlistButtonHeader">
           <img class="KaliopPlayer-playlistButtonImage" :src="media.image.src" :alt="media.image.alt">
         </header>
