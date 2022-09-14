@@ -48,7 +48,7 @@ function mountPlayer(mediaContainer, data, eventBus) {
     originMediaPoster: firstMedia.image,
     originSubtitles: firstMedia.subtitles,
     originAutoplay: options.autoplay,
-    controlsList: options.controls_list,
+    controlsList: options.controlsList,
     playButton: options.playButton
   }
 
