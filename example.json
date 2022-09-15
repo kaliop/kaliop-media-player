@@ -4,6 +4,10 @@
     "playButton": {
       "isVisible": true,
       "hasIcon": true
+    },
+    "controlsList": {
+      "nodownload": false,
+      "noplayblackrate": false
     }
   },
   "labels": {
