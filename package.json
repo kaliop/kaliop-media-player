@@ -1,6 +1,6 @@
 {
   "name": "kaliop-media-player",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Kaliop customizable media player for handling audio/video playlist",
   "main": "kaliopMediaPlayerHandler.js",
   "scripts": {
@@ -12,7 +12,8 @@
   },
   "contributors": [
     { "name": "Matthieu Linconnu" },
-    { "name": "Olivier Malige" }
+    { "name": "Olivier Malige" },
+    { "name": "Kamil Szymik" }
   ],
   "license": "ISC",
   "bugs": {
