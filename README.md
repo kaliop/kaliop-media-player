@@ -135,14 +135,15 @@ Chaque media est constitué des propriétés suivantes :
 
 Liste des options disponibles :
 
-| OPTION              | TYPE    | VALEUR PAR DÉFAUT                                        | DESCRIPTION                                                          |
-|---------------------|---------|----------------------------------------------------------|----------------------------------------------------------------------|
-| mediaType           | String  | video                                                    | Définit le type de lecteur à afficher (vidéo/audio)                  |
-| autoplay            | Boolean | false                                                    | Définit si la lecture automatique est activée par défaut             |
-| descriptionOnPreview | Boolean | false                                                    | Affiche la description du média dans les éléments de la playlist     |
-| authorOnPreview     | Boolean | false                                                    | Affiche le nom de l'auteur du média dans les éléments de la playlist |
-| playButton*         | Object  | Object: { isVisible: Boolean, hasIcon: Boolean }         | Si "isVisible" = true, affiche le bouton de lecture avec l'image de poster par dessus le player. Si "hasIcon" = true, affiche une icone "play" |
-| controlsList        | Object  | Object: { nodownload: Boolean, noplaybackrate: Boolean } | |
+| OPTION                  | TYPE    | VALEUR PAR DÉFAUT                                        | DESCRIPTION                                                          |
+|-------------------------|---------|----------------------------------------------------------|----------------------------------------------------------------------|
+| mediaType               | String  | video                                                    | Définit le type de lecteur à afficher (vidéo/audio)                  |
+| autoplay                | Boolean | false                                                    | Définit si la lecture automatique est activée par défaut             |
+| descriptionOnPreview    | Boolean | false                                                    | Affiche la description du média dans les éléments de la playlist     |
+| authorOnPreview         | Boolean | false                                                    | Affiche le nom de l'auteur du média dans les éléments de la playlist |
+| playButton*             | Object  | Object: { isVisible: Boolean, hasIcon: Boolean }         | Si "isVisible" = true, affiche le bouton de lecture avec l'image de poster par dessus le player. Si "hasIcon" = true, affiche une icone "play" |
+| controlsList            | Object  | Object: { nodownload: Boolean, noplaybackrate: Boolean } | |
+| disablePictureInPicture | Boolean | false                                                    |  |
 
 *Cette option est utilisable uniquement pour les média type "vidéo"
 

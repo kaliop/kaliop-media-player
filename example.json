@@ -8,7 +8,8 @@
     "controlsList": {
       "nodownload": false,
       "noplayblackrate": false
-    }
+    },
+    "disablePictureInPicture": true
   },
   "labels": {
     "transcriptionLabel": "Transcription de la video"
