@@ -146,6 +146,11 @@
         this.mediaSubtitles = media.subtitles
         this.loadMedia()
       },
+      setDisablePictureInPicture () {
+        if (this.disablePictureInPicture) {
+          this.$refs.videoTag.setAttribute('disablePictureInPicture', '');
+        }
+      },
       // Check if the current is first or last and notify Controls widget
       checkCurrentMedia() {
         if (this.medias[this.currentMediaIndex - 1] === undefined) {
@@ -166,9 +171,7 @@
       this.autoplay = this.originAutoplay
       this.mediaNode = this.$el.querySelector('[data-kaliop-player-mediaPlayer]')
 
-      if (this.disablePictureInPicture) {
-        this.$refs.videoTag.setAttribute('disablePictureInPicture', '');
-      }
+      this.setDisablePictureInPicture()
       // Add event listener on media ended
       this.mediaEnded()
 

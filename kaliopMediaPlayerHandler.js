@@ -49,6 +49,7 @@ function mountPlayer(mediaContainer, data, eventBus) {
     originSubtitles: firstMedia.subtitles,
     originAutoplay: options.autoplay,
     controlsList: options.controlsList,
+    disablePictureInPicture: options.disablePictureInPicture,
     playButton: options.playButton
   }
 

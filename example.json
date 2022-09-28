@@ -7,7 +7,7 @@
     },
     "controlsList": {
       "nodownload": false,
-      "noplayblackrate": false
+      "noplaybackrate": false
     },
     "disablePictureInPicture": true
   },
