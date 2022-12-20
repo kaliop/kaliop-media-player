@@ -147,7 +147,7 @@
         this.loadMedia()
       },
       setDisablePictureInPicture () {
-        if (this.disablePictureInPicture) {
+        if (this.disablePictureInPicture && document.body.contains(this.$refs.videoTag)) {
           this.$refs.videoTag.setAttribute('disablePictureInPicture', '');
         }
       },
