@@ -1,6 +1,6 @@
 {
   "name": "kaliop-media-player",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Kaliop customizable media player for handling audio/video playlist",
   "main": "kaliopMediaPlayerHandler.js",
   "scripts": {
