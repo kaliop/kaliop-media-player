@@ -1,10 +1,21 @@
 <template>
   <div class="KaliopPlayer-player" :class="{'is-playing': isPlaying }" :data-current-media-index="currentMediaIndex">
-    <button class="KaliopPlayer-playerButton" v-if="mediaType === 'video' && playButton.isVisible" @click="playMedia">
+    <button 
+      v-if="mediaType === 'video' && playButton.isVisible" 
+      class="KaliopPlayer-playerButton" 
+      @click="playMedia">
       <img v-if="mediaPoster" :src="mediaPoster.src" :alt="mediaPosterAlt">
       <svg v-if="playButton.hasIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 0C114.833 0 0 114.844 0 256s114.833 256 256 256 256-114.844 256-256S397.167 0 256 0zm101.771 264.969l-149.333 96c-1.75 1.135-3.771 1.698-5.771 1.698-1.75 0-3.521-.438-5.104-1.302C194.125 359.49 192 355.906 192 352V160c0-3.906 2.125-7.49 5.563-9.365 3.375-1.854 7.604-1.74 10.875.396l149.333 96c3.042 1.958 4.896 5.344 4.896 8.969s-1.854 7.01-4.896 8.969z"/></svg>
     </button>
-    <video ref="videoTag" v-if="mediaType === 'video'" class="KaliopPlayer-mediaPlayer" data-kaliop-player-mediaPlayer controls :controlsList="checkOptions" >
+    <video 
+      v-if="mediaType === 'video'"
+      ref="videoTag" 
+      :class="{'is-visible': isPlaying}"
+      :controlsList="checkOptions"
+      class="KaliopPlayer-mediaPlayer" 
+      data-kaliop-player-mediaPlayer 
+      controls 
+    >
       <source v-for="(source, index) in mediaSources" :key="`source-${index}`" :src="source.src" :type="source.type ? source.type : ''">
       <track
         v-for="(subtitle, index) in mediaSubtitles" :key="`subtitle-${index}`"
@@ -231,5 +242,10 @@
 
   .KaliopPlayer-mediaPlayer {
     display: block;
+    visibility: hidden;
+
+    &.is-visible {
+      visibility: visible;
+    }
   }
 </style>
